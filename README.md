@@ -1,0 +1,4 @@
+# QRT Data Challenge
+
+With the recent success of machine learning in a wide range of fields, people put in a lot of effort trying to predict the stock market based on historical data. Determining the future value of a company stock can lead to significant profits. However, the behaviour of time series stock is close to a random walk which makes it particularly difficult finding patterns. In this report, we explain our approach for predicting the relative return based on historical data in the challenge proposed by Qube Research and Technologies. Our optimal model is based on a Random Forest Classifier and by aggregating features found with several clustering algorithms applied directly on the time series. We obtained a score of 51.77 percents on the public data (for comparison, benchmark is at 51.31 and best score is at 52.02).
+
